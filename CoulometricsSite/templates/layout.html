@@ -8,11 +8,11 @@
         <header>
             <div class="container">
                 <a href="{{ url_for('homepage')}}">
-                    <img src="/static/images/Coulometrics-300x69-Transparent-Background.png" alt="Coulometrics' Logo">
+                    <img class="logo" src="/static/images/Coulometrics-300x69-Transparent-Background.png" alt="Coulometrics' Logo">
                 </a>
                 <input type="text" placeholder="Search this site...">
                 <nav>
-                    <ul>
+                    <ul class="menu">
                         <li>Home</li>
                         <li>Toll Coating</li>
                         <li>Development Services[dropdown]</li>
@@ -22,9 +22,14 @@
                 </nav>
             </div>
         </header>
-        <div class="container">
-            {% block content %}
-            {% endblock %}
-        </div>
+           <!--  <div class="container">
+                {% block content %}
+                {% endblock %}
+            </div> -->
     </body>
+    <footer>
+        <div class="container">
+            <p class="copyright">Copyright 2019 Coulometrics, LLC</p>
+        </div>
+    </footer>
 </html>

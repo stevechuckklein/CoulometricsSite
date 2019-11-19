@@ -1,0 +1,36 @@
+footer p.copyright {
+	margin: auto;
+	text-align: center;
+}
+
+header {
+	height: 150px;
+	position: relative;
+}
+
+header img.logo {
+	float: left;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	float: left;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 10 0 30 0;
+	position: relative;
+	width: 90%;
+}
+
+div.home {
+	padding: 10 0 30 0;
+}
+
+.menu {
+	float: right;
+}
