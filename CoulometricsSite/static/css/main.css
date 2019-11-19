@@ -32,5 +32,8 @@ div.home {
 }
 
 .menu {
+	bottom: 0;
 	float: right;
+	padding-top: 60px;
+	top: 64px;
 }
