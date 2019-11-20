@@ -1,6 +1,11 @@
-footer p.copyright {
-	margin: auto;
-	text-align: center;
+body {
+	line-height: 20px;
+	font-family: 'Droid Sans', Arial, Verdana, sans-serif;
+	font-size: 14px;
+	color: #929292;
+	background-color: #ffffff;
+	padding-top: 0px;
+	padding-bottom: 98px;
 }
 
 header {
@@ -8,7 +13,7 @@ header {
 	position: relative;
 }
 
-header img.logo {
+li {
 	float: left;
 }
 
@@ -16,7 +21,16 @@ ul {
 	list-style-type: none;
 }
 
-li {
+div.home {
+	padding: 10 0 30 0;
+}
+
+footer p.copyright {
+	margin: auto;
+	text-align: center;
+}
+
+header img.logo {
 	float: left;
 }
 
@@ -27,13 +41,23 @@ li {
 	width: 90%;
 }
 
-div.home {
-	padding: 10 0 30 0;
-}
-
-.menu {
+.top-menu {
 	bottom: 0;
 	float: right;
 	padding-top: 60px;
 	top: 64px;
+}
+
+.top-menu-item {
+	color: #22a1cc;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0px 10px;
+	text-transform: uppercase;
+}
+
+#search-bar {
+	position : absolute;
+	top: 1px;
+	right: 1px;
 }
