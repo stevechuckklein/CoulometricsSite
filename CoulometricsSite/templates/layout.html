@@ -5,8 +5,8 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
     </head>
     <body>
-        <header>
-            <div class="container">
+        <div class="container">
+            <div id="header">
                 <a href="{{ url_for('homepage')}}">
                     <img class="logo" src="/static/images/Coulometrics-300x69-Transparent-Background.png" alt="Coulometrics' Logo">
                 </a>
@@ -23,15 +23,15 @@
                     </ul>
                 </nav>
             </div>
-        </header>
+        </div>
            <!--  <div class="container">
                 {% block content %}
                 {% endblock %}
             </div> -->
     </body>
-    <footer>
+<!--     <footer>
         <div class="container">
             <p class="copyright">Copyright 2019 Coulometrics, LLC</p>
         </div>
-    </footer>
+    </footer> -->
 </html>
