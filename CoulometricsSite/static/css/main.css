@@ -18,18 +18,15 @@ body {
 	padding-bottom: 98px;
 }
 
+/* Format the Header Area */
+
 header {
-	height: auto;
 	padding: 25px 5px 10px 5px;
 	position: relative;
 }
 
 li {
 	float: left;
-}
-
-nav {
-	position: relative;
 }
 
 ul {
@@ -42,20 +39,15 @@ ul {
 	list-style-type: none;
 }
 
-div.home {
-	padding: 10 0 30 0;
-}
-
-footer p.copyright {
-	margin: auto;
-	text-align: center;
-}
-
 img.logo {
-	float: left;
+	text-align: left;
 	height: auto;
 	position: relative;
 	width: auto;
+}
+
+.menu = {
+	text-align: right;
 }
 
 .container {
@@ -66,8 +58,9 @@ img.logo {
 }
 
 .top-menu {
-	float: left;
-	position: relative; 
+	padding-top: 50px;
+	position: relative;
+	top: 64px;
 }
 
 .top-menu-item {

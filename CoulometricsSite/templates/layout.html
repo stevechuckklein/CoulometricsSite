@@ -6,21 +6,27 @@
     </head>
     <body>
         <header>
-            <a href="{{ url_for('homepage')}}">
-                <img class="logo" src="/static/images/Coulometrics-300x69-Transparent-Background.png" alt="Coulometrics' Logo">
-            </a>
-            <div id="search-bar">
-                <input type="text" placeholder="Search this site...">
+            <div class="container">
+                <div>
+                    <a href="{{ url_for('homepage')}}">
+                        <img class="logo" src="/static/images/Coulometrics-300x69-Transparent-Background.png" alt="Coulometrics' Logo">
+                    </a>
+                </div>
+                <div id="search-bar">
+                    <input type="text" placeholder="Search this site...">
+                </div>
+                <div>
+                    <nav>
+                        <ul class="top-menu">
+                            <li class="top-menu-item">Home</li>
+                            <li class="top-menu-item">Toll Coating</li>
+                            <li class="top-menu-item">Development Services</li>
+                            <li class="top-menu-item">Contact</li>
+                            <li class="top-menu-item">Press</li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <nav>
-                <ul class="top-menu">
-                    <li class="top-menu-item">Home</li>
-                    <li class="top-menu-item">Toll Coating</li>
-                    <li class="top-menu-item">Development Services</li>
-                    <li class="top-menu-item">Contact</li>
-                    <li class="top-menu-item">Press</li>
-                </ul>
-            </nav>
         </header>
     </body>
 </html>
