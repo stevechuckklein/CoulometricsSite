@@ -5,33 +5,22 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
     </head>
     <body>
-        <div class="container">
-            <div id="header">
-                <a href="{{ url_for('homepage')}}">
-                    <img class="logo" src="/static/images/Coulometrics-300x69-Transparent-Background.png" alt="Coulometrics' Logo">
-                </a>
-                <div id="search-bar">
-                    <input type="text" placeholder="Search this site...">
-                </div>
-                <nav>
-                    <ul class="top-menu">
-                        <li class="top-menu-item">Home</li>
-                        <li class="top-menu-item">Toll Coating</li>
-                        <li class="top-menu-item">Development Services</li>
-                        <li class="top-menu-item">Contact</li>
-                        <li class="top-menu-item">Press</li>
-                    </ul>
-                </nav>
+        <header>
+            <a href="{{ url_for('homepage')}}">
+                <img class="logo" src="/static/images/Coulometrics-300x69-Transparent-Background.png" alt="Coulometrics' Logo">
+            </a>
+            <div id="search-bar">
+                <input type="text" placeholder="Search this site...">
             </div>
-        </div>
-           <!--  <div class="container">
-                {% block content %}
-                {% endblock %}
-            </div> -->
+            <nav>
+                <ul class="top-menu">
+                    <li class="top-menu-item">Home</li>
+                    <li class="top-menu-item">Toll Coating</li>
+                    <li class="top-menu-item">Development Services</li>
+                    <li class="top-menu-item">Contact</li>
+                    <li class="top-menu-item">Press</li>
+                </ul>
+            </nav>
+        </header>
     </body>
-<!--     <footer>
-        <div class="container">
-            <p class="copyright">Copyright 2019 Coulometrics, LLC</p>
-        </div>
-    </footer> -->
 </html>
