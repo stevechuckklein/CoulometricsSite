@@ -47,10 +47,11 @@ img.logo {
 }
 
 .menu = {
-	text-align: right;
+	display: inline-block;
 }
 
 .container {
+	display: flex;
 	margin: 0 auto;
 	position: relative;
 	text-align: left;
