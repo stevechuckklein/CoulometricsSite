@@ -1,4 +1,15 @@
-.navbar-center {
-	margin: auto;
-	width: 75%;
+.navbar-nav > li {
+	padding: 0px 15px;
+}
+
+/*.navbar {
+	max-width: 80%;
+}
+
+footer.container{
+	max-width: 80%;
+}*/
+
+p > footer {
+	margin: 0 auto;
 }

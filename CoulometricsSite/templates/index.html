@@ -6,11 +6,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 		<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+		<script src="/static/js/jquery-3.4.1.js"></script>
+		<script src="/static/js/bootstrap.js"></script>
 	</head>
 	<body>
 		<div class="container py-1">
 			<div class="row"> 
-                <img src="/static/images/Coulometrics-300x69-Transparent-Background.png" class="img-fluid mx-auto" alt="Coulometrics' Logo">
+                <img src="/static/images/white-logo.png" class="img-fluid mx-auto" alt="Coulometrics' Logo">
 			</div>
 		</div>
 		<div class="container py-1">
@@ -24,5 +26,20 @@
 			    </ul>
 			</nav>
 		</div>
+		<div class="container">
+			{% block content %}
+			{% endblock %}
+		</div>
+		<!-- Footer -->
+		<footer>
+			<div class="container">
+				<div class="border-top text-right">
+				 	<div class="p-3">
+				 		<p>© 2019 Copyright:<a href="#"> Coulometrics LLC</a></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- Footer -->
 	</body>
 </html>
